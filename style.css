@@ -1256,7 +1256,7 @@
         position: absolute;
         right: 10px;
         top: 120px;
-        z-index: 2;
+        z-index: 3;
         display: none;
     }
 
