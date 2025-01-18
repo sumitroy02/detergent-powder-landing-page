@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="containers-1">
+
+        <div id="cart-slider" class="cart-slider">
+            <div class="close-icon-div"><i onclick="closebtn()" class="fa-solid fa-arrow-right fa-lg"
+                    style="color: #ffffff;"></i></div>
+            <div class="slider-content">Empty</div>
+        </div>
+
+
+        <img class="backimg" src="img/backimg2.jpg" alt="">
+        <div class="inner-containers">
+            <nav class="nav-bar">
+                <div class="follow-icon">
+                    <marquee class="offer">Get additional 10% Off on prepaid orders !</marquee>
+                </div>
+                <div class="inner-nav-bar">
+                    <div class="logo-div">LOGO</div>
+                    <div class="nav-op-div ">
+                        <a href="#">HOME</a> 
+                        <a href="#">SHOP</a>
+                        <a href="#">TRADE ENQUIRY</a>
+                        <a href="#">BLOGS</a>
+                        <a href="#">CONTACT</a>
+                    </div>
+                    <div class="icon-div">
+                        <div onclick="signshow()" class="sign-icon-div"><i class="fa-solid fa-user fa-lg sign"
+                                style="color: white;"></i></div>
+                        <div onclick="cartslide()" class="sign-icon-div"><i class="fa-solid fa-bucket fa-lg cart"
+                                style="color: white;"></i></div>
+                        <div id="ham-icon"  class="sign-icon-div hamicon"><i class="fa-solid fa-bars fa-lg ham" style="color: #ffffff;"></i></div>
+
+                    </div>
+                </div>
+            </nav>
+            <div class="nav-op-div1 ">
+                <a href="#">HOME</a> 
+                <a href="#">SHOP</a>
+                <a href="#">TRADE ENQUIRY</a>
+                <a href="#">BLOGS</a>
+                <a href="#">CONTACT</a>
+            </div>
+            
+
+            <div class="phone-op">
+                <div class="triangle"></div>
+                <div class="phone-options"><a href="#">HOME</a></div>
+                <div class="phone-options"><a href="#">SHOP</a></div>
+                <div class="phone-options"><a href="#">TRADE ENQUIRY</a></div>
+                <div class="phone-options"><a href="#">BLOGS</a></div>
+                <div class="phone-options"><a href="#">CONTACT</a></div>
+            </div>
+
+            <div class="content-box">
+                <div class="inner-content-box">
+                    <div class="content1">WASHING DETERGENT POWDER</div>
+                    <div class="content2">REDEEM CLEAN</div>
+                    <div class="content3">For every kind of fabric,
+                        (company name) has a uniquely formulated washing solution.<br>Be it expensive or regular
+                        clothes, woollens or home linen like curtains and bedsheets,<br>your search for the perfect
+                        washing product ends at (company name).</div>
+                    <!-- <div class="content4">SHOP NOW</div> -->
+                    <div id="shop-now" class="shop-now-div">
+                        <div class="shop-now-txt">SHOP NOW</div>
+                        <div class="shop-now-btn-style"></div>
+                        <i class="fa-solid fa-arrow-up fa-sm arrow1"></i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bubble">
+                <span class="span1"></span>
+                <span class="span2"><span class="one"></span></span>
+            </div>
+
+
+            <div class="bubble1">
+                <span class="span3 "></span>
+                <span class="span4"><span class="one1"></span></span>
+            </div>
+
+            <div class="bubble2">
+                <span class="span3"></span>
+                <span class="span4 span-6"><span class="one1"></span></span>
+            </div>
+
+
+            <div class="bubble3">
+                <span class="span3"></span>
+                <span class="span4"><span class="one1"></span></span>
+            </div>
+
+
+
+            <div class="bubble4">
+                <span class="span3"></span>
+                <span class="span4"><span class="one1"></span></span>
+            </div>
+
+
+
+            <div class="bubble5">
+                <span class="span3"></span>
+                <span class="span4 span-12"><span class="one1"></span></span>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <div id="signin-page-div" class="signin-page-div">
+        <div id="signin-page" class="signin-page">
+            <div class="cut" onclick="cutbtn()"><i class="fa-solid fa-x fa-lg cuticon"></i></div>
+            <div class="sign-txt">Sign In</div>
+            <div class="input-div">
+                <input type="text" required="required">
+                <span>First Name</span>
+            </div>
+
+            <div class="input-div">
+                <input type="text" required="required">
+                <span>Last Name</span>
+            </div>
+
+            <div class="input-div">
+                <input type="text" required="required">
+                <span>Phone No.</span>
+            </div>
+
+            <div class="input-div">
+                <input type="text" required="required">
+                <span>Address</span>
+            </div>
+
+            <button class="logbtn">Submit</button>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        function cutbtn() {
+
+            document.getElementById("signin-page-div").style = "display:none;";
+        }
+
+        function signshow() {
+            document.getElementById("signin-page-div").style = "display:flex;";
+        }
+
+        function cartslide() {
+            document.getElementById("cart-slider").style = "right: 0px;";
+        }
+
+        function closebtn() {
+            document.getElementById("cart-slider").style = "right: -450px;";
+        }
+
+
+
+        $(document).ready(function () {
+
+          $("#ham-icon").click(function(){
+            $(".phone-op").slideToggle()
+          })
+
+          $(".phone-options").click(function(){
+            $(".phone-op").slideUp(1000)
+          })
+
+        })
+    </script>
+
+
+
+</body>
+
+</html>
